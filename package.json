@@ -1,0 +1,24 @@
+{
+  "name": "osf-logger",
+  "version": "1.0.14",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/logger.umd.cjs",
+  "module": "./dist/logger.js",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/logger.js",
+    "require": "./dist/logger.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "vite": "^5.2.10"
+  }
+}
